@@ -905,12 +905,15 @@ textarea.form-control {
 
 }
 
+<<<<<<< HEAD
 @media (max-width:629px) {
   img#optionalstuff {
     display: none;
   }
 }
 
+=======
+>>>>>>> 3abe7c1ad500001dcb38b65f1563ba83c2f55f50
 .topSocial{
   color:rgba(94,94,94,1);
   align:center;
