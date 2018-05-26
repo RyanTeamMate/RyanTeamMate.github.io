@@ -906,7 +906,7 @@ textarea.form-control {
 }
 
 
-@media (max-width:629px) {
+@media (max-width:760px) {
   img#optionalstuff {
     display: none;
   }
