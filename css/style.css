@@ -924,6 +924,16 @@ textarea.form-control {
   border:none;
 }
 
+.socialfa{
+
+  color:#5e5e5e;
+  text-shadow: 0 -1px #ffffff,-1px 0 #ffffff,0 1px #ffffff,1px 0 #ffffff;"
+}
+
+.socialfa:hover{
+  color:#fb7d33;
+}
+
 .topSocial:hover{
   color:#fb7d33;
 }
