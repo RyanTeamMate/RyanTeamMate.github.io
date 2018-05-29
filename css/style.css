@@ -922,7 +922,7 @@ textarea.form-control {
 }
 
 
-@media (max-width:700px) {
+@media (max-width:768px) {
   .singleScreen {
     display: none;
   }
@@ -996,6 +996,7 @@ textarea.form-control {
     grid-template-columns: repeat(3, minmax(200px, 1fr));
     grid-template-rows: auto;
 }
+
 .gridContainerImg{
     display: inline-block;
     height: 59.86vw;
@@ -1003,6 +1004,11 @@ textarea.form-control {
     background-image:url(../images/top.jpg);
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+.aboutGrid{
+    display:grid;
+    grid-template-areas: 'imageArea'  'titleArea'  'descArea';
 
 }
 
@@ -1039,9 +1045,9 @@ textarea.form-control {
 
 
 .symbolLogos{
-
-  max-width:10vw;
-  height:auto;
+  grid-area: imageArea;
+  width:auto;
+  height:10vw;
   margin-left:auto;
   margin-right:auto;
   padding-top: 2em;
@@ -1051,6 +1057,7 @@ textarea.form-control {
 }
 
 .aboutTitle{
+  grid-area: titleArea;
   font-family:avenir;
   line-height: 1;
   margin-top: 2vw;
@@ -1058,6 +1065,7 @@ textarea.form-control {
 }
 
 .aboutDesc{
+  grid-area: descArea;
   font-weight: 300;
 
   line-height: 1;
@@ -1180,7 +1188,10 @@ p.ex1 {
 }
 
 .col-md-half{width: 4.16666%;}
-.col-md-logo{width: 22.22222%;}
+.col-md-logo{
+  width: 21.22222%;
+  margin-right:1%;
+  }
 .col-md-1 {width: 8.33%;}
 .col-md-2 {width: 16.66%;}
 .col-md-3 {width: 25%;}
