@@ -1066,11 +1066,11 @@ textarea.form-control {
 
 }
 
-@media screen and (max-width: 768px){
+/*@media screen and (max-width: 768px){
   .symbolLogos{
     height:30vw;
   }
-}
+}*/
 
 .aboutTitle{
   grid-area: titleArea;
