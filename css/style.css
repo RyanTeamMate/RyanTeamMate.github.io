@@ -44,7 +44,7 @@ h6, .h6{
   z-index: 3;
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 991px;) {
   .site-navbar-light {
     background: #000 !important;
     top: 0;
@@ -922,7 +922,7 @@ textarea.form-control {
 }
 
 
-@media (max-width:768px) {
+@media (max-width:768px;) {
   .singleScreen {
     display: none;
   }
@@ -954,7 +954,7 @@ textarea.form-control {
   margin-right:auto;
   text-align: center;
 }
-@media (max-width:700px) {
+@media (max-width:700px;) {
   .socialfa {
     margin-top: 55vw;
   }
@@ -1205,7 +1205,7 @@ p.ex1 {
 .col-md-11 {width: 91.66%;}
 .col-md-12 {width: 100%;}
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px;) {
     /* For mobile phones: */
     [class*="col-"] {
         width: 100%;
