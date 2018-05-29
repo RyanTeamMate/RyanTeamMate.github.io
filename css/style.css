@@ -1058,6 +1058,12 @@ textarea.form-control {
 
 }
 
+@media screen and (max-width: 768){
+  .symbolLogos{
+    height:30vw;
+  }
+}
+
 .aboutTitle{
   grid-area: titleArea;
   font-family:avenir;
