@@ -967,6 +967,21 @@ textarea.form-control {
   color:#fb7d33;
 }
 
+.comingsoon{
+  margin-left:1vh;
+  width:auto;
+  height:5vh;
+  top:0;
+  margin-top:0;
+}
+
+.copyrightfooter{
+  text-align:left;
+  margin-top: -3vh;
+  font-size: 2vh;
+  margin-left:1vw;
+  font-weight: 300;
+}
 
 .topSocial:hover{
   color:#fb7d33;
