@@ -50,6 +50,11 @@ h1, h2, h3, h4, h5,
   }
 }
 
+@font-face {
+    font-family: avenir;
+    src: url('../fonts/fonts/Avenir.ttf');
+}
+
 .site-navbar-light .navbar-nav > .nav-item > .nav-link {
   font-size: 13px;
   text-transform: uppercase;
@@ -532,7 +537,7 @@ textarea.form-control {
 }
 
 .site-section {
-  padding: 7em 0;
+  padding: 2em 0;
 }
 
 .site-bg-dark {
@@ -917,25 +922,89 @@ textarea.form-control {
 
 .topSocial{
   color:#5e5e5e;
+  position: absolute;
   align:center;
   font-size: 1em;
   text-decoration: none;
   text-shadow:none;
   border:none;
+  font-size:1.2em;
+  right:0;
+  left:0;
 }
 
 .socialfa{
 
   color:#5e5e5e;
-  text-shadow: 0 -1px #ffffff,-1px 0 #ffffff,0 1px #ffffff,1px 0 #ffffff;"
+  z-index: 4;
+  position: absolute;
+  top:0;
+  right:0;
+  left:0;
+  margin-top: 57vw;
+  margin-left:auto;
+  margin-right:auto;
+  text-align: center;
 }
 
-.socialfa:hover{
+.fafa{
+  color:rgba(94,94,94,.6);
+}
+.fafa:hover{
   color:#fb7d33;
 }
+
 
 .topSocial:hover{
   color:#fb7d33;
+}
+
+.gridContainer {
+    display: grid;
+    grid-gap: 5px;
+    height:inherit;
+    z-index:1;
+    position:relative;
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+    grid-template-rows: auto;
+}
+.gridContainerImg{
+    display: inline-block;
+    height: 59.86vw;
+    width: 100vw;
+    background-image:url(../images/top.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.imgTop{
+    position:absolute;
+    width:inherit;
+    height: auto;
+    object-fit: contain;
+    top: 0;
+    z-index: 0;
+}
+
+.imgLogo{
+    position:absolute;
+    top:0;
+    right:0;
+    left:0;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:10vw;
+    width: 33vw;
+    height: auto;
+    z-index: 2;
+}
+
+.symbolLogos{
+  max-width:5em;
+  margin-left:auto;
+  margin-right:auto;
+  margin: 3vw;
 }
 
 #site-loader {
