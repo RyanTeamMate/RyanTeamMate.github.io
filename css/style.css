@@ -28,6 +28,9 @@ h1, h2, h3, h4, h5,
   color: #000;
   font-weight: bold;
 }
+h6, .h6{
+  line-height: 1;
+}
 
 .text-primary {
   color: #FDA403 !important;
@@ -58,6 +61,7 @@ h1, h2, h3, h4, h5,
     font-family: avenirLight;
     src: url('../fonts/fonts/avenirroman.otf');
 }
+
 
 .site-navbar-light .navbar-nav > .nav-item > .nav-link {
   font-size: 13px;
@@ -918,8 +922,8 @@ textarea.form-control {
 }
 
 
-@media (screen and max-device-width:700px) {
-  img#optionalstuff {
+@media (max-width:700px) {
+  .singleScreen {
     display: none;
   }
 }
@@ -949,6 +953,11 @@ textarea.form-control {
   margin-left:auto;
   margin-right:auto;
   text-align: center;
+}
+@media (max-width:700px) {
+  .socialfa {
+    margin-top: 55vw;
+  }
 }
 
 .fafa{
@@ -1004,8 +1013,19 @@ textarea.form-control {
     z-index: 2;
 }
 
+.singleScreen{
+    position:absolute;
+    margin-left:1.5vw;
+    margin-top:20vw;
+    width: 30vw;
+    height: auto;
+    z-index: 5;
+}
+
+
 .symbolLogos{
-  width:15vw;
+
+  max-width:10vw;
   height:auto;
   margin-left:auto;
   margin-right:auto;
@@ -1014,6 +1034,27 @@ textarea.form-control {
   padding-bottom:0;
 
 }
+
+.aboutTitle{
+  font-family:avenir;
+  line-height: 1;
+  margin-top: 2vw;
+  margin-bottom:0;
+}
+
+.aboutDesc{
+  font-weight: 300;
+
+  line-height: 1;
+  margin-top:2vw;
+  margin-bottom:0;
+}
+
+p.ex1 {
+    margin-top: 0;
+}
+
+
 
 #site-loader {
   position: fixed;
@@ -1124,6 +1165,7 @@ textarea.form-control {
 }
 
 .col-md-half{width: 4.16666%;}
+.col-md-logo{width: 22.22222%;}
 .col-md-1 {width: 8.33%;}
 .col-md-2 {width: 16.66%;}
 .col-md-3 {width: 25%;}
