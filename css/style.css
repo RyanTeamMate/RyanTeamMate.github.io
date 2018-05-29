@@ -922,7 +922,7 @@ textarea.form-control {
 }
 
 
-@media (max-width:768px) {
+@media screen and (max-width:768px) {
   .singleScreen {
     display: none;
   }
@@ -955,7 +955,7 @@ textarea.form-control {
   text-align: center;
 }
 
-@media (max-width:700px) {
+@media screen and (max-width:700px) {
   .socialfa {
     margin-top: 55vw;
   }
