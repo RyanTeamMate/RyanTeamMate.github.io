@@ -1018,6 +1018,7 @@ textarea.form-control {
 .aboutGrid{
     display:grid;
     grid-template-areas: 'imageArea'  'titleArea'  'descArea';
+    color:#05193c;
 
 }
 
@@ -1056,7 +1057,7 @@ textarea.form-control {
 .symbolLogos{
   grid-area: imageArea;
   width:auto;
-  height:10vw;
+  height:6em;
   margin-left:auto;
   margin-right:auto;
   padding-top: 2em;
@@ -1077,12 +1078,13 @@ textarea.form-control {
   line-height: 1;
   margin-top: 2vw;
   margin-bottom:0;
+  color:#05193c;
 }
 
 .aboutDesc{
   grid-area: descArea;
   font-weight: 300;
-
+  color:#05193c;
   line-height: 1;
   margin-top:2vw;
   margin-bottom:0;
