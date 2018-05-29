@@ -916,6 +916,13 @@ textarea.form-control {
 
 }
 
+@media screen and (max-width: 768px){
+  .stickybutton{
+    font-size: .5em;
+
+  }
+}
+
 .stickybutton:hover{
   background-color: #f28131;
 
