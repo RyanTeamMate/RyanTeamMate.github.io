@@ -1084,7 +1084,7 @@ textarea.form-control {
 .aboutDesc{
   grid-area: descArea;
   font-weight: 300;
-  color:#05193c;
+  color:#5e5e5e;
   line-height: 1;
   margin-top:2vw;
   margin-bottom:0;
