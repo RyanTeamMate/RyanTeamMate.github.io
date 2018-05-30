@@ -545,7 +545,7 @@ textarea.form-control {
 }
 
 .site-section {
-  padding: 2em 0;
+  padding: 0;
 }
 
 .site-bg-dark {
@@ -1025,6 +1025,14 @@ textarea.form-control {
   align-items:baseline;
 
 }
+@media screen and (max-width: 768px){
+  .topAboutGrid{
+    margin-left: 10vw;
+    margin-right: 10vw;
+    grid-template-columns: 1fr;
+
+  }
+}
 
 .aboutGrid{
     display:grid;
@@ -1058,6 +1066,7 @@ textarea.form-control {
 
 .singleScreen{
     position:absolute;
+    padding:0;
     margin-left:1.5vw;
     margin-top:20vw;
     width: 30vw;
