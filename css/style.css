@@ -1025,12 +1025,12 @@ textarea.form-control {
   align-items:baseline;
 
 }
-@media screen and (max-width: 768px){
+
+@media screen and (max-width:768px){
   .topAboutGrid{
     margin-left: 10vw;
     margin-right: 10vw;
     grid-template-columns: 1fr;
-
   }
 }
 
