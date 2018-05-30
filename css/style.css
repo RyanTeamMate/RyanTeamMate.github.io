@@ -1020,9 +1020,11 @@ textarea.form-control {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 1vw;
   margin-left: 28vw;
-  margin-top:0;
+  margin-top:1vh;
+  margin-bottom:1.5vh;
   padding:0;
   align-items:baseline;
+  text-align:center;
 
 }
 
@@ -1035,9 +1037,9 @@ textarea.form-control {
 }
 
 .aboutGrid{
-    display:grid;
+    display:subgrid;
     grid-template-areas: 'imageArea'  'titleArea'  'descArea';
-    margin-top:0;
+    margin:0;
     color:#05193c;
 
 }
@@ -1077,8 +1079,8 @@ textarea.form-control {
 
 .symbolLogos{
   grid-area: imageArea;
-  width:auto;
-  height: 3em;
+  width: auto;
+  height: 4em;
   margin-left:auto;
   margin-right:auto;
   margin-top: 1.5vw;
@@ -1096,6 +1098,7 @@ textarea.form-control {
 .aboutTitle{
   grid-area: titleArea;
   font-family:avenir;
+  font-size:1.5em;
   font-weight: 500;
   line-height: 1;
   margin-top: 1.5vw;
@@ -1108,8 +1111,8 @@ textarea.form-control {
   font-size: .75em;
   font-weight: 300;
   color:#5e5e5e;
-  line-height: 1;
-  margin-top:1.5vw;
+  line-height: 1.5;
+  margin-top:1.2vw;
   margin-bottom:0;
 }
 
