@@ -1019,7 +1019,7 @@ textarea.form-control {
   display:grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 1vw;
-  margin-left: 28vw;
+  margin-left: 32vw;
   margin-top:1vh;
   margin-bottom:1.5vh;
   padding:0;
