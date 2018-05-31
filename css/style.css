@@ -1021,7 +1021,8 @@ textarea.form-control {
   grid-gap: 1vw;
   margin-left: 32vw;
   margin-top:1vh;
-  margin-bottom:1.5vh;
+  margin-bottom:3em;
+  margin-right: 2vw;
   padding:0;
   align-items:baseline;
   text-align:center;
